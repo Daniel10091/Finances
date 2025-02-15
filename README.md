@@ -1,39 +1,30 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Projeto Finanças
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+Projeto Finanças é um aplicativo desenvolvido em Flutter para controle de despesas e gerenciamento financeiro pessoal. O aplicativo permite que você registre suas despesas, visualize estatísticas e gráficos de gastos e economias, e acompanhe a saúde financeira de forma simples e intuitiva.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+## Sumário
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- [Recursos](#recursos)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Instalação e Execução](#instalação-e-execução)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-## Features
+## Recursos
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Registro de Despesas**: Cadastre suas despesas diárias com categorias e descrições.
+- **Gráficos e Estatísticas**: Visualize gráficos interativos que mostram seus gastos mensais, economia e distribuição das despesas.
+- **Interface Intuitiva**: Design limpo e organizado para facilitar a navegação e o acompanhamento financeiro.
+- **Controle de Economias**: Acompanhe suas metas de economia e veja o progresso em tempo real.
 
-## Getting started
+## Tecnologias Utilizadas
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- **Flutter**: Framework para desenvolvimento de aplicativos multiplataforma.
+- **Dart**: Linguagem de programação utilizada pelo Flutter.
+- **Pacotes Flutter**: Utilização de pacotes como [provider](https://pub.dev/packages/provider) para gerenciamento de estado e [charts_flutter](https://pub.dev/packages/charts_flutter) (ou similares) para a criação dos gráficos.
+- **Firebase/SQLite** *(opcional)*: Para armazenamento local ou em nuvem dos dados financeiros.
 
-## Usage
+## Estrutura do Projeto
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+A estrutura de pastas do projeto segue uma organização modular para facilitar a manutenção e escalabilidade:
