@@ -46,12 +46,10 @@ lib/ ├── main.dart ├── models/ │ ├── expense.dart # Modelo d
    cd projeto-financas
 
 2. **Instale as dependências:**
-
   ```bash
   flutter pub get
 
 3. **Execute o aplicativo:**
-
   ```bash
   flutter run
 
