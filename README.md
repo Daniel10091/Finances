@@ -1,2 +1,3 @@
-# Finances
- App in Flutter
+# finances
+
+A new Flutter project.
