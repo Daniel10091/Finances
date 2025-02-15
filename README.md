@@ -43,15 +43,15 @@ lib/ ├── main.dart ├── models/ │ ├── expense.dart # Modelo d
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/projeto-financas.git
-   cd projeto-financas`
+   cd projeto-financas
 
 2. **Instale as dependências:**
    ```bash
-   flutter pub get`
+   flutter pub get
 
 3. **Execute o aplicativo:**
    ```bash
-   flutter run`
+   flutter run
 
 ## Contribuição
 
