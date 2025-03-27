@@ -26,7 +26,8 @@ class HomeScreenTemplate extends StatelessWidget {
     return Scaffold(
       // AppBar com o título e o botão do avatar para acessar o perfil
       appBar: AppBar(
-        title: const Text('Projeto Finanças'),
+        toolbarHeight: 80,
+        title: const Text('Finanças'),
         actions: [
           ProfileAvatarAtom(
             imageUrl: avatarImageUrl,
